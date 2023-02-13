@@ -19,7 +19,7 @@
     - name: Add sudoers users to wheel group
       user:
         name: admin
-        password: '{{ "P@ssw0rd" | password_hash("sha512") }}'
+        password: '{{password|password_hash('sha512') }}'
         groups: wheel
         append: yes
         state: present

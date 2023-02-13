@@ -1,2 +1,2 @@
 # Ansible_roles
-Some examples without NDA
+A few examples without NDA, anonymized, variables and passwords are random
